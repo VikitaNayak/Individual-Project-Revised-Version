@@ -3,7 +3,7 @@
 
 #### Background: 
 
-This document is the revised version of the individual Project [Exploratory Data Analysis](README.md) and First Version.
+This document is the revised version of the individual Project [Exploratory Data Analysis](https://github.com/VikitaNayak/Individual-Project/blob/master/README.md) and First Version.
 - The Individual Project Exploratory Data Analysis included 5 distinct visualizations which were created from the Speed Camera Violation dataset. 
 - The Individual Project first version included finding 3 key insights from the data analysis of 4 different datasets including Speed Camera Violation dataset
 
