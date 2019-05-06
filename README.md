@@ -39,3 +39,31 @@ In total, 4 datasets have been used for this analysis and below are those:
 - Data set 2 Reference : https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if)
 
 - Data set 3 Reference : https://data.cityofchicago.org/Transportation/Red-Light-Camera-Violations/spqx-js37
+
+#### Goal of this analysis:
+
+The goal of this analysis is to measure the effectivity of the Automated Speed Enformcement (ASE) program is in Chicago. Under ASE program, speed cameras has been installed in the childern safety zones of chicago. These cameras capture speed violations in these areas. It is important to have this program in these areas as a part of safety for children by slowing donw the speed of vehicles in these areas and avoiding the crashes. 
+
+
+Our main aim is to reduce the number of crashes in the children safety zones of Chicago and the main questions to be anwered with this analysis are :
+- (1) Is there any impact of this program on the number of speed violations in the speed camera enforced areas?
+- (2) Is there any impact of this program on the number of crashes in the speed camera enforced areas?
+- (3) Is there any impact of speed violations on red light violations which is one of the major causes of crashes?
+- (4) Are the drivers aware of this program?
+
+
+#### Derivation of Insights from the final datasets
+
+
+##### Insight 1: Does decreasing speed violation also reduces the number of accidents in that area?
+
+###### Analysis: 
+The idea here is to analyze impact of speed camera violations on number of crashes. Since, speed is one of the major causes of the crashes, it is important to see how these two are related in speed camera enforced areas. It has been observed that over the period of time, the number of speed violations are decreasing under the Automated Speed Enformcement (ASE) program in chicago. 
+
+Trend of speed violations under ASE in chicago  |  Trend of speed violations and crashes in speed camera enforced areas
+- | -
+![IP_FV_overall_trend_speed_violations.PNG](https://github.com/VikitaNayak/Individual-Project-First-Version/blob/master/IP_Viz1.PNG) | ![RV_IP_Insight1.PNG](RV_IP_Insight1.PNG)
+- | -
+Graph 1 | Graph 2
+
+
