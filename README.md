@@ -2,18 +2,33 @@
 
 ###### Submitted By Vikita Nayak
 
-#### Background: 
+#### Table of Contents
+
+|Sr.no| Content|
+|--------|--------|
+|1       | Background|
+|2       |Goal of this Project|
+|3       | About the Datasets|
+|4       | Final Dataset Creation|
+|5       | Dataset Reference|
+|6       | Goal of this analysis|
+|7       | erivation of Insights from the final datasets|
+|8       | Graph Comparison |
+|9       | Dashboards Comparison|
+|10      | Summary|
+
+#### 1. Background: 
 
 This document is the revised version of the individual Project [Exploratory Data Analysis](https://github.com/VikitaNayak/Individual-Project/blob/master/README.md) and [First Version](https://github.com/VikitaNayak/Individual-Project-First-Version/blob/master/README.md).
 - The Individual Project Exploratory Data Analysis included 5 distinct visualizations which were created from the Speed Camera Violation dataset. 
 - The Individual Project first version included finding 3 key insights from the data analysis of 4 different datasets including Speed Camera Violation dataset
 
-#### Goal of this project: 
+#### 2. Goal of this project: 
 - The final version of your data product.
 - A documentation of your data product.
 - The final version should make use of advanced and interactive features of Tableau
 
-#### About the Datasets
+#### 3. About the Datasets
 
 In total, 4 datasets have been used for this analysis and below are those:
 -  Dataset 1 : Speed Camera Violation
@@ -21,7 +36,7 @@ In total, 4 datasets have been used for this analysis and below are those:
 -  Dataset 3 : Red light Violation
 -  Dataset 4 : Ward Dataset
 
-##### Final Dataset creation:
+##### 4. Final Dataset creation:
 
 - Data cleaning in python and excel to remove the null values and extra columns 
 - Extracted zipcodes from location in traffic crashes datasets using google API in python. [Code for reference.](https://github.com/VikitaNayak/Individual-Project-First-Version/blob/master/%5BIndividual%20Project%5D%20Python%20code%20to%20generate%20zipcodes%20from%20location.ipynb)
@@ -30,7 +45,7 @@ In total, 4 datasets have been used for this analysis and below are those:
 - Removed extra columns not required for analysis from all three tables
 - Merged (joined) the above 3 datasets in Tableau based on zipcodes
 
-###### Dataset Reference
+###### 5. Dataset Reference
 
 - Ward Dataset Reference : https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Ward-Offices/htai-wnw4
 
@@ -40,7 +55,7 @@ In total, 4 datasets have been used for this analysis and below are those:
 
 - Data set 3 Reference : https://data.cityofchicago.org/Transportation/Red-Light-Camera-Violations/spqx-js37
 
-#### Goal of this analysis:
+#### 6. Goal of this analysis:
 
 The goal of this analysis is to measure the effectivity of the Automated Speed Enformcement (ASE) program is in Chicago. Under ASE program, speed cameras has been installed in the childern safety zones of chicago. These cameras capture speed violations in these areas. It is important to have this program in these areas as a part of safety for children by slowing donw the speed of vehicles in these areas and avoiding the crashes. 
 
@@ -54,7 +69,7 @@ Our main aim is to reduce the number of crashes in the children safety zones of 
 
 
 
-#### Derivation of Insights from the final datasets
+#### 7. Derivation of Insights from the final datasets
 
 
 ##### Insight 1: Does decreasing speed violation also reduces the number of accidents in that area?
@@ -101,7 +116,7 @@ Red light violation is one of the major reasons for crashes. Let's analyze the i
 ##### Observation: 
 We found that with decrease in the number of speed violations, there is decrease in the number of red light violations which is one of the major causes of the crashes. The lesser speed violation leads to lesser red light violation as the speed is in control and the drivers are able to stop on the red light. High speed vehicles are not easier to stop on red light and this leads to increase in the number red light violations
 
-### Graph Comparison
+### 8. Graph Comparison
 
 #### Visualization 1 
 
@@ -241,7 +256,7 @@ This is a dual chart showing trend of red light violations and speed violations 
 
 
 
-#### Dashboards Comparison
+#### 9. Dashboards Comparison
 
 |**First Version**                                       |          **Revised Version**                 |
 |--------------------------------------------------------|----------------------------------------------|
@@ -251,11 +266,19 @@ This is a dual chart showing trend of red light violations and speed violations 
 |Title of the dashboard is not effective                 | Added suitable dashboard title               |
 
 
-#### Summary
+#### 10. Conclusion
+
+The revised version graphs have some of the common updates like:
 - The titles are updated in all the visualizations to make the message clear
 - Added captions for all visualizations to give more information about the charts
 - Created global filter (Month & Day) on dashboard for user interactivity
 - Updated the legend title and names
 - Trend lines are shown
 - Y axis title are hidden to avoid confusion due to dual axis charts
+
+This version is better than the first version as it is more clear and lucid. The graphs & dashboard can help the mayor of chicago to see the effectivity of the ASE Program. Major takeaways from this visualization for the mayor will be 
+
+- To cover more areas under ASE program so that speed violations can be reduced.
+- The awarness of the ASE Program has been increased over the period of time and it is effective.
+- Speed is one of the major causes of crashes and red light violations.
 
